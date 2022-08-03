@@ -1,0 +1,35 @@
+.container_404{
+	background-image: url(../img/error404.png); 
+    height: 65vh;
+    width: 100%;
+    h2{
+    	padding-top: 100px;
+    	padding-left: 20vw;
+        font-family: fantasy;
+    }
+    h3{
+    	margin-top: 40px;
+    	padding-left: 4%;
+        font-family: fantasy;
+        font-size: $textMd;
+    }
+}
+
+.boton_index{
+	font-family: $mainFont;
+    background-color: $keyColor;
+    color: $white;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    transition: 0.5s;
+	font-size: $textMd;
+	margin-top: 0;
+    &:hover{
+    background: $orange;
+	color: $white;
+	}
+}		
